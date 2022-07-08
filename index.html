@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <div>
+        <div class="d-flex flex-row">            
+        
+            <!--
+            <div class="col-md-3">
+                <div class="card card1 p-3">
+                    <div class=" image d-flex flex-row align-items-center mt-3"> <img
+                            src="https://i.imgur.com/R4afbIg.png" height="50" width="50" /> <span>Clover</span> </div>
+                    <hr class="hline">
+                    <div class="d-flex flex-column align-items-center"> <button class="btn"><i
+                                class="fa fa-dashboard"></i><span>Dashboard</span></button> <button class="btn mt-3"><i
+                                class="fa fa-users"></i><span>Users</span></button> <button class="btn mt-3"><i
+                                class="fa fa-inbox"></i><span>Inbox</span></button> <span class="other mt-4">Other
+                            Information</span> <button class="btn mt-3"><i
+                                class="fa fa-book"></i><span>Knowlwdge</span></button> <button class="btn mt-3"><i
+                                class="fa fa-question-circle"></i><span>Dashboard</span></button> </div>
+                </div>
+            </div> 
+            -->
+            
+            <nav>
+                <div class="navbar">
+                  <div class=" image d-flex flex-row align-items-center mt-3"> <img
+                     src="../imagenes/TAT.png" height="50" width="50" /> <span>TAT</span> 
+                  </div>  
+                    <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+
+                      <div class="menu-items">
+                        <li><a href="../index.html" target="_blank">Home</a></li>
+                        <li><a href="../html/videos.html" target="_blank">Mis cursos</a></li>
+                        <li><a href="../html/terminos.html" target="_blank">Términos y condiciones</a></li>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+            <div class="col-md-9" >
+                <div class="card card2 p-3">
+                    <div class="hello d-flex justify-content-end align-items-center mt-3"> <span>Bienvenido Sergio</span>
+                    </div>
+                    <div class="d-flex flex-row gap-3">
+                        <div class="card cardchild mt-3 p-2 px-3 py-3">
+                            <div class="d-flex p-2 mt-2 justify-content-between rounded">
+                                <div class="d-flex flex-column"><span class="type">Vistas último video</span><span
+                                        class="number">132 vistas</span>
+                                </div>
+                                <div class="d-flex flex-column"></div>
+                            </div>
+                        </div>
+                        <div class="card cardchild mt-3 p-2 px-3 py-3">
+                            <div class="d-flex p-2 mt-2 justify-content-between rounded">
+                                <div class="d-flex flex-column"><span class="type">Suscriptores</span><span
+                                        class="number">120</span></div>
+                                <div class="d-flex flex-column"><span class="percentage2">25%</span></div>
+                            </div>
+                        </div>
+                        <div class="card cardchild mt-3 p-2 px-3 py-3">
+                            <div class="d-flex p-2 mt-2 justify-content-between rounded">
+                                <div class="d-flex flex-column"><span class="type">Horas streaming</span><span
+                                        class="number">25</span></div>
+                                <div class="d-flex flex-column"><span class="percentage3">17%</span></div>
+                            </div>
+                        </div>
+                        <div class="card cardchild mt-3 p-2 px-3 py-3">
+                            <div class="d-flex p-2 mt-2 justify-content-between rounded">
+                                <div class="d-flex flex-column"><span class="type">Cursos totales</span><span
+                                        class="number">5</span></div>
+                                        <div class="d-flex flex-column"><span class="percentage4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center content-center mt-5 gap-2 p-3">
+                        <div class="col-md-6">
+                            <div class="card cardchildchild p-2">
+                                <div class="profile1"> <img src="../imagenes/hombre.jpg" height="90" width="90" 
+                                        class="rounded-circle" /> </div>
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-5"> <span
+                                        class="name">Sergio Vasquez</span> <span class="mt-1 braceletid">Matrícula: 21090036</span> 
+                                        </div>
+                                <div class="d-flex justify-content-center align-items-center mt-3"> 
+                                    <a href="../home.html"> <input type="button" value="Home"></a>  
+                                </div>
+                            </div>
+                        </div>
+                       <div>
+                            
+                            <script src="https://d3js.org/d3.v4.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css"/>
+                            <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js"></script>
+                            
+                            <style>
+                              h2 {
+                                text-align: center;
+                                font-family: "Verdana", sans-serif;
+                                font-size: 40px;
+                              }
+                            </style>
+                            <body>
+                              <div class="col-xs-12 text-center">
+                                <h2>Estadísticas</h2>
+                              </div>
+                            
+                              <div id="donut-chart"></div>
+                            
+                              <script>
+                                var chart = bb.generate({
+                                  data: {
+                                    columns: [
+                                      ["Vistas", 2],
+                                      ["Suscripciones", 4],
+                                      ["Horas straming", 3],
+                                    ],
+                                    type: "donut",
+                                    onclick: function (d, i) {
+                                      console.log("onclick", d, i);
+                                    },
+                                    onover: function (d, i) {
+                                      console.log("onover", d, i);
+                                    },
+                                    onout: function (d, i) {
+                                      console.log("onout", d, i);
+                                    },
+                                  },
+                                  donut: {
+                                    title: "70",
+                                  },
+                                  bindto: "#donut-chart",
+                                });
+                              </script>
+                            
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

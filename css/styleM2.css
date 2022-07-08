@@ -1,0 +1,21 @@
+#sectionA
+{
+   float:left;
+   width: 20%;
+   background-color: #212529;
+   height: 120vh;
+}
+#sectionB
+{
+   float:left;
+   width: 80%;
+   background-color: #f6f5fa;
+   height: 120vh;
+}
+
+#sectionC
+{
+   clear:both;
+   width: 100%;
+   background-color: aqua;
+}

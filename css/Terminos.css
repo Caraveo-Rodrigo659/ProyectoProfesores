@@ -1,0 +1,49 @@
+body {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+  }
+
+.header_box{
+	margin: 0px;
+	border: 5px solid black;
+	padding: 10px;
+	width: 950px;
+	background: black;
+	color:azure;
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Seccion1{
+	margin: 0px;
+	border: 5px solid white;
+	padding: 10px;
+	width: 950px;
+	background: whitesmoke;
+	
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+ul{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px;
+	border: 0px; 
+
+	}
+li{
+	line-height: 1.5;
+
+}
+
+h2{
+	color:black;
+}
+
+h3{
+	color:black;
+}
